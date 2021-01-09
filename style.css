@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #303030;
+    font-family: Roboto;
+}
+
+header {
+    max-width: 700px;
+    min-width: 550px;
+    margin: auto;
+    padding: 40px;
+}
+
+header .title {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 96px;
+    line-height: 112px;
+    letter-spacing: -1.5px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+
+header .search-block {
+    width: 100%;
+}
+
+header .search-field {
+    width: 80%;
+    border: none;
+    border-radius: 50px 0 0 50px;
+    padding: 15px;
+}
+
+header .search-button {
+    border: none;
+    border-radius: 0 50px 50px 0;
+    padding: 15px;
+    margin-left: -5px;
+    background-color: #6202EE;
+    color: white;
+    text-transform: uppercase;
+    width: 110px;
+}
+
+main .tracks-list {
+    max-width: 700px;
+    min-width: 550px;
+    margin: auto;
+}
+
+main .track-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+main .track-description-block {
+    display: flex;
+    flex-direction: column;
+}
+
+main .track-author {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.7);
+    mix-blend-mode: normal;
+}
+
+main .track-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: rgba(255, 255, 255, 0.7);
+    mix-blend-mode: normal;
+}
+
+main .track-controls-block {
+    display: flex;
+    align-items: center;
+}
+
+main .track-save-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #989898;
+    color: white;
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main .track-play-button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: white;
+    background-color: #6202EE;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+main .track-play-button i {
+    font-size: 20pt;
+}
+
+main .track-play-button i.icon-play {
+    margin-left: 5px;
+}
