@@ -62,6 +62,25 @@
             <?php endforeach; ?>
         </div>
     </main>
+    <footer>
+        <div class="player-block">
+            <div class="player-timestripe" id="timeline">
+                <div class="player-timestripe-filled" id="timeline_filled"></div>
+                <div class="player-timestripe-point" id="playhead"></div>
+            </div>
+            <div class="player-bottom-block">
+                <div class="player-description-block">
+                    <span class="player-author">Subtitle 2 / Roboto Medium</span>
+                    <span class="player-title">Subtitle 1 / Roboto Regular</span>
+                </div>
+                <div class="player-controls-block">
+                    <div class="player-prev-button"><i class="icon-step-backward"></i></div>
+                    <div class="player-play-button" id="pButton"><i class="icon-play"></i></div>
+                    <div class="player-next-button"><i class="icon-step-forward"></i></div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./script.js"></script>
 </body>
